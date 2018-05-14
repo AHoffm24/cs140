@@ -1,0 +1,18 @@
+cd
+ls
+pwd = gives current path of current directory
+man ls  gives manual explaining ls command
+man <command> gives manual explaining how to use the command
+
+filename.rb = ruby file name descriptor
+
+touch homework1.rb will create the file if it does not exist
+rm homework1.rb will delete file
+rm -i homework1.rb will ask you if you are sure you want to delete this file
+in which you use yes or no
+
+cp filename1.rb homework1/hw1.rb will move filename1.rb to director homework1 and
+name it hw1.rb
+
+mv file1 file2 move file 1 to file2. Can move a file from one location to another
+or it will rename a file

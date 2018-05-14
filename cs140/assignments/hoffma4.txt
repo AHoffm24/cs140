@@ -1,0 +1,34 @@
+For installing Ruby, because I am running it on my own laptop and
+not through bobby, I checked on my command line by doing ruby -v to check my
+version since I already had it installed. I came to find my version was at
+1.87(came pre installed on macbook), and I just installed ruby 2.4 using
+homebrew through tutorials I found on google. I also installed it on my
+old mac book running ubuntu 16, using "sudo apt-get install ruby-full"
+I didnt see that it was a requirement to use bobby, but I may have missed this.
+I currently use github to store my files on the cloud as a back up. If Bobby is
+a must, just let me know in a comment on the grade.
+
+The only require step to begin creating a ruby program is to name the file
+“Filename.rb” which tells the computer that this is a ruby file. To compile
+and run the program, I would type ruby Filename.rb, which will compile and run
+the current file I asked the computer to run. For this typing IRB allows for
+immediate answers to be printed rather than compiling.
+
+
+
+1. 11
+
+2. 11.0 type float
+
+3. No implicit conversion because you cant add type sting to type int. Logically does not make since, “syntax error”
+
+4. Jim2017, it makes logical since, its adding 2 strings together, essentially creating one long type string object.
+
+5. 4
+
+6. Printed nothing, since you are using an if statement. The if statement of
+(5 < 3) will never be found true, and thus the computer will not complete it
+
+7. 4, unless works similarly to the if statement except the opposite.
+It will print the statement no matter what, if and only if the logic following
+the unless statement is found to be true, in which case it will not print

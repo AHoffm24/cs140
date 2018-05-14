@@ -1,0 +1,36 @@
+Adam Hoffman
+CS cs140
+Module 1 Assignment
+
+(a) What is the full path of your home directory?
+
+on bobby, use command pwd while in home directory
+answer: /home/hoffma4
+
+(b) What does the -H option do using the ls command?
+
+-H, --dereference-command-line
+             follow symbolic links listed on the command line
+
+(c) What does the -R option do using the cp command?
+
+-R, -r, --recursive
+             copy directories recursively
+
+(d) What is the purpose of the grep command?
+
+The grep command search the given named input file(s) for lines containing a
+match to the given "Pattern". by default, prints the matching lines.
+example: qgrep pattern filename
+
+(e) what is the difference between the -c option and the -x option when using
+the tar command?
+
+The difference betwen the -c option and -x option when using the tar command are,
+-c creates a new archive, while -x extracts the files from an archive.
+
+(f) Read this how-to:
+
+cat -n filename.txt, will print the number lines and you can see total lines at
+by finding the line number next to the very bottom line in the file.
+which is 36 including this line. 

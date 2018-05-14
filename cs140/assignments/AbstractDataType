@@ -1,0 +1,43 @@
+Abstract Data Type in ruby notes
+Data    operation
+input -> Method -> output
+
+What is an abstract datatype
+ADT - User defined data structure and it has 2 parts to it
+1. It seperates the logical interface or the behavior of this structure from
+its concrete implementation
+2. Ties together both data values and operations that are associated with those
+values
+example of care
+Data:
+engine
+make
+model
+year
+Operation:
+drive
+refuel
+park
+
+Defining Classes in ruby:
+Concrete representation of an ADT in a program
+
+Syntax
+class ClassName - Class name must be capitalized 
+    data = variables
+    operations = methods *methods are a function in a class
+end
+
+variables are called instance variables. Want them to be accessible
+everywhere in class.
+@ = prepending before a variable name
+now speed in both methods are the same variable
+car.rb
+class Car
+  def drive
+    @speed = 50
+  end
+  def park
+    @speed = 0
+  end
+end
